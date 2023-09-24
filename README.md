@@ -28,6 +28,14 @@ cd ./cancer_race_biomarkers
 ```
 python3 step_1_significant_p_values.py
 ```
+Below is an example of the first six rows of an output file
+| Gene | p value Asian | mutation rates |
+|:-----------:|:------------|:------------|
+|*TTN*|0.0252253881867595|0.318181818181818|
+|*STAG2*|0.0379037259675974|0.25|
+|*TP53*|0.0007432979061513|0.227272727272727|
+|*HRAS*|0.0033335101263974|0.159090909090909|
+|*ARID1A*|0.0104834979681634|0.159090909090909|
 
 ### Step 2A: Find the longest common sequence
 Calculate the longest common list of genes in sorted order based on their p-value for both Asian and Black files
@@ -36,6 +44,15 @@ We are looking for the following Cancer types: UCS,THCA,PRAD,LIHC,KIRP,KIRC,ESCA
 ```
 python3 step_2a_longest_common_sequence.py
 ```
+
+Below is an example of the first six rows of an output file
+| gene | p_value_asian | mutation_asian | p_value_black | mutation_black |
+|:-----------:|:------------|:------------|:------------|:------------|
+|*TP53*|0.0020686768505332|0.517241379310345|0.0003245032792273|0.462962962962963
+|*CLIC5*|0.0065693216385066|0.0344827586206897|0.0005063394448323|0.0308641975308642
+|*CSF3*|0.0004104195653529|0.0344827586206897|0.0047829398494226|0.0185185185185185
+|*GS1-309P15.2*|0.0004104195653529|0.0344827586206897|0.0047829398494226|0.0185185185185185
+|*RP11-356C4.3*|0.0004104195653529|0.0344827586206897|0.0451901189627159|0.0123456790123457
 
 ### Step 2B: Find the common genes
 Calculate common genes between the Asian and Black race files
