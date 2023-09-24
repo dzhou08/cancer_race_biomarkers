@@ -1,0 +1,81 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-26AC57A5C070992A-1AE648D0E384706F
+#datatype	hitsConcise Results(Superfamily only)
+#status	0
+#Start time	2023-02-04T21:40:58	Run time	0:00:00:24
+#status	success
+
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#1 - >MUC4	superfamily	445871	6403	6560	1.47199e-53	186.094	cl02648	NIDO superfamily	 - 	 - 
+Q#1 - >MUC4	superfamily	445907	6559	6674	1.90871e-45	163.15	cl02758	AMOP superfamily	 - 	 - 
+Q#1 - >MUC4	superfamily	445809	6679	6859	2.4208e-23	100.169	cl02516	VWD superfamily	 - 	 - 
+Q#1 - >MUC4	superfamily	223021	3211	3721	1.20706e-08	62.6485	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	223021	5378	5952	2.37824e-08	61.8781	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	223021	5716	6240	3.43691e-07	58.0261	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	223021	1515	1999	5.97239e-07	57.2557	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	223021	2583	3087	1.7008e-06	55.7149	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	223021	2260	2767	3.8635e-06	54.5593	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	223021	3532	4063	8.85001e-06	53.0185	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	227709	4106	4326	2.47614e-05	51.4303	cl34999	ROM1 superfamily	C	 - 
+Q#1 - >MUC4	superfamily	223021	4910	5440	4.88292e-05	50.7073	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	223021	4038	4618	0.000125759	49.5517	cl33720	PHA03247 superfamily	N	 - 
+Q#1 - >MUC4	superfamily	227709	1098	1350	0.000165763	48.7339	cl34999	ROM1 superfamily	C	 - 
+Q#1 - >MUC4	superfamily	223039	524	967	0.000416692	47.4733	cl33723	PHA03307 superfamily	C	 - 
+Q#1 - >MUC4	superfamily	223039	4472	4861	0.000441937	47.4733	cl33723	PHA03307 superfamily	C	 - 
+Q#1 - >MUC4	superfamily	237863	1844	2279	0.00466019	43.9456	cl36445	PRK14949 superfamily	N	 - 
+Q#2 - > AXIN1	superfamily	445854	1380	1512	4.00022e-81	263.777	cl02614	SPRY superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	445854	950	1101	2.22871e-79	259.552	cl02614	SPRY superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	428952	4685	4974	1.33871e-78	263.082	cl24183	RR_TM4-6 superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	426222	2469	2677	2.02609e-76	253.253	cl03182	RYDR_ITPR superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	426222	752	942	2.4586e-76	252.867	cl03182	RYDR_ITPR superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	450353	316	517	7.42636e-76	252.407	cl19745	Ins145_P3_rec superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	445854	1726	1874	9.00614e-76	249.53	cl02614	SPRY superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	397103	519	697	2.0664e-73	244.195	cl26702	MIR superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	426570	1158	1248	8.90415e-46	161.119	cl03409	RyR superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	426570	3043	3133	1.00183e-42	152.259	cl03409	RyR superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	426570	1272	1362	2.567e-37	136.851	cl03409	RyR superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	426570	3163	3247	7.16545e-35	129.918	cl03409	RyR superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	430005	4179	4295	3.72562e-32	122.633	cl09597	RIH_assoc superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	425730	5068	5252	3.16262e-27	113.516	cl37996	Ion_trans superfamily	 - 	 - 
+Q#2 - > AXIN1	superfamily	445779	5375	5414	2.59405e-12	65.2326	cl02426	DIX superfamily	C	 - 
+Q#2 - > AXIN1	superfamily	223039	120	298	1.73799e-05	51.7105	cl33723	PHA03307 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	445871	5510	5667	2.36621e-53	186.864	cl02648	NIDO superfamily	 - 	 - 
+Q#3 - > RYR1	superfamily	428952	513	773	1.06389e-46	172.56	cl24183	RR_TM4-6 superfamily	 - 	 - 
+Q#3 - > RYR1	superfamily	445907	5666	5781	4.79216e-45	163.15	cl02758	AMOP superfamily	 - 	 - 
+Q#3 - > RYR1	superfamily	430005	7	123	6.08132e-32	123.403	cl09597	RIH_assoc superfamily	 - 	 - 
+Q#3 - > RYR1	superfamily	430005	17811	17927	6.08132e-32	123.403	cl09597	RIH_assoc superfamily	 - 	 - 
+Q#3 - > RYR1	superfamily	425730	867	1051	2.34891e-27	115.442	cl37996	Ion_trans superfamily	 - 	 - 
+Q#3 - > RYR1	superfamily	445809	5786	5966	6.08393e-23	100.169	cl02516	VWD superfamily	 - 	 - 
+Q#3 - > RYR1	superfamily	223021	4414	4963	1.23853e-10	70.7376	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	16679	17228	1.23853e-10	70.7376	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	17016	17596	6.82745e-10	68.0412	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	9736	10246	1.97304e-08	63.4189	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	11903	12477	3.15238e-08	62.6485	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	12241	12765	4.74281e-07	58.7965	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	2443	3038	4.86337e-07	58.7965	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	14708	15303	4.86337e-07	58.7965	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	8040	8524	8.95802e-07	57.6409	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	9108	9612	2.81874e-06	56.1001	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	8785	9292	5.8862e-06	54.9445	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	16254	16860	6.61773e-06	54.9445	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	3989	4595	6.61773e-06	54.9445	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	10025	10588	1.20878e-05	54.1741	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	12521	13016	1.30332e-05	53.7889	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223039	4812	5216	2.01889e-05	53.2513	cl33723	PHA03307 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	223021	3189	3731	2.76755e-05	53.0185	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	15454	15996	2.76755e-05	53.0185	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	2153	2691	3.41146e-05	52.6333	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223021	14418	14956	3.41146e-05	52.6333	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	227709	10631	10851	5.04356e-05	51.8155	cl34999	ROM1 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	282904	11527	11886	7.99321e-05	51.0704	cl37540	Herpes_BLLF1 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	227709	5134	5354	8.6386e-05	51.0451	cl34999	ROM1 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	223021	10563	11143	0.000174394	50.3221	cl33720	PHA03247 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	227709	7623	7875	0.000351754	49.1191	cl34999	ROM1 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	223039	10997	11386	0.000362962	49.0141	cl33723	PHA03307 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	223039	7049	7492	0.000478875	48.6289	cl33723	PHA03307 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	223039	1639	2075	0.000507871	48.6289	cl33723	PHA03307 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	223039	13904	14340	0.000507871	48.6289	cl33723	PHA03307 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	183756	11362	11495	0.00462957	44.7065	cl32828	motB superfamily	N	 - 
+Q#3 - > RYR1	superfamily	223039	8485	8889	0.00680313	44.7769	cl33723	PHA03307 superfamily	C	 - 
+Q#3 - > RYR1	superfamily	236776	2990	3104	0.00687724	43.8616	cl35960	PRK10856 superfamily	N	 - 
+Q#3 - > RYR1	superfamily	236776	15255	15369	0.00687724	43.8616	cl35960	PRK10856 superfamily	N	 - 

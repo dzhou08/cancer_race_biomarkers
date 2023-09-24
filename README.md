@@ -25,18 +25,38 @@ cd ./cancer_race_biomarkers
 2. Perform proportion test for the frequency of mutation
 3. Select genes with significant p-values from proportion test
 
+```
+step_1_significant_p_values.py
+```
+
 ### Step 2A: Find the longest common sequence
 Calculate the longest common list of genes in sorted order based on their p-value for both Asian and Black files
 We are looking for the following Cancer types: UCS,THCA,PRAD,LIHC,KIRP,KIRC,ESCA,BRCA,BLCA
+
+```
+step_2a_longest_common_sequence.py
+```
 
 ### Step 2B: Find the common genes
 Calculate common genes between the Asian and Black race files
 We are looking for the following Cancers: UCS,THCA,PRAD,LIHC,KIRP,KIRC,ESCA,BRCA,BLCA
 
+```
+python3 step_2b_common_genes.py
+```
+
 ### Step 3: Find longest protein sequence
 1. Extract protein sequences from Ensembl of genes found in Step 2.1.
 2. Take longest protein sequence for each gene within file from Step 3.1.
 
+```
+python3 step_3_longest_protein_sequence.py
+```
+
 ### Step 4: Super family analysis
 1. Perform CDSearch to identify superfamilies for each gene
 2. Identify common superfamilies for each race in selected cancers
+
+```
+python3 step_4_super_family.py
+```

@@ -1,6 +1,14 @@
+
+from enum import unique
+import pandas as pd
+import re
+import numpy as np
+
+root_drive_path = './Cancers/'
+
 def read_race_gene_file(cancer,race):
     try:
-        file_name = root_drive_path + 'Judy_MutationRate_Files/' + cancer + '_' + race + '_Vs_White.csv'
+        file_name = root_drive_path + 'mutationrate_files/' + cancer + '_' + race + '_Vs_White.csv'
         data = pd.read_csv(file_name, index_col = 0)
 
         # only keep the significant (p_value < 0.05) genes
@@ -23,7 +31,7 @@ def read_race_gene_file(cancer,race):
                     # sort the dataframe with descending order of p values
                     inner_merged = inner_merged.sort_values([col,"Gene"], ascending = [False,True])
                     inner_merged = inner_merged.rename(columns = {col: "mutation rates"})
-                    inner_merged.to_csv(root_drive_path + '/2023_summer/Daniel_step1_SignificantP_results_colab/' + cancer + '_' + race + '_genes.csv', index = False)
+                    inner_merged.to_csv(root_drive_path + '/step1_significant_p_results/' + cancer + '_' + race + '_genes.csv', index = False)
                     return
 
             except KeyError:
@@ -34,7 +42,7 @@ def read_race_gene_file(cancer,race):
 
 
 if __name__ == "__main__":
-  cancers = input("What are the cancers? ALL for all Cancer types or Cancer names separated by comma. ")
+  cancers = input("What are the cancers? ALL for all Cancer types or Cancer names separated by comma: ")
   
   if cancers == "ALL":
       data = pd.read_csv(root_drive_path + 'TCGA_mutprop_cancer_race_info.csv')
@@ -50,8 +58,8 @@ if __name__ == "__main__":
       cancers = cancers.split(',')
   
   for cancer in cancers:
-      # read Asian gene file
-      read_race_gene_file(cancer, "Asian")
+    # read Asian gene file
+    read_race_gene_file(cancer, "Asian")
 
     # read Black gene file
     read_race_gene_file(cancer, "Black")
