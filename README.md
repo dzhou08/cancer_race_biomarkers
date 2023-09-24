@@ -28,6 +28,7 @@ cd ./cancer_race_biomarkers
 ```
 python3 step_1_significant_p_values.py
 ```
+
 Below is an example of the first six rows of an output file
 | Gene | p value Asian | mutation rates |
 |:-----------:|:------------|:------------|
@@ -77,3 +78,12 @@ python3 step_3_longest_protein_sequence.py
 ```
 python3 step_4_super_family.py
 ```
+
+Below is an example of the first six rows of an output file
+| Superfamily | Count of Genes |
+|:-----------:|:------------|
+|*cl21504*|33|
+|*cl11960*|16|
+|*cl17171*|10|
+|*cl34174*|9|
+|*cl17036*|6|
