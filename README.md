@@ -30,7 +30,7 @@ python3 step_1_significant_p_values.py
 ```
 
 Below is an example of the first six rows of an output file
-| Gene | p value Asian | mutation rates |
+| Gene | p value | mutation rates |
 |:-----------:|:------------|:------------|
 |*TTN*|0.0252253881867595|0.318181818181818|
 |*STAG2*|0.0379037259675974|0.25|
@@ -47,7 +47,7 @@ python3 step_2a_longest_common_sequence.py
 ```
 
 Below is an example of the first six rows of an output file
-| gene | p_value_asian | mutation_asian | p_value_black | mutation_black |
+| gene | p_value_race1 | mutation_race1 | p_value_race2 | mutation_race2 |
 |:-----------:|:------------|:------------|:------------|:------------|
 |*TP53*|0.0020686768505332|0.517241379310345|0.0003245032792273|0.462962962962963
 |*CLIC5*|0.0065693216385066|0.0344827586206897|0.0005063394448323|0.0308641975308642
@@ -56,7 +56,7 @@ Below is an example of the first six rows of an output file
 |*RP11-356C4.3*|0.0004104195653529|0.0344827586206897|0.0451901189627159|0.0123456790123457
 
 ### Step 2B: Find the common genes
-Calculate common genes between the Asian and Black race files
+Calculate common genes between the race1 and race2 race files
 We are looking for the following Cancers: UCS,THCA,PRAD,LIHC,KIRP,KIRC,ESCA,BRCA,BLCA
 
 ```
