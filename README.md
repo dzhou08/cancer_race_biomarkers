@@ -1,4 +1,4 @@
-# cancer_race_biomarkers
+# MutDispar
 This software examines survival disparities in mutation frequencies of
 oncogenes and reveal the biological and clinical significance
 of driver mutations, which contribute to mortality disparity.
@@ -12,7 +12,7 @@ of driver mutations, which contribute to mortality disparity.
 - pandas
 
 ## Installation
-In order to get started with *cancer_race_biomarkers*, you can just clone this repo as follows;
+In order to get started with *MutDispar*, you can just clone this repo as follows;
 ```bash
 git clone https://github.com/dzhou08/cancer_race_biomarkers.git
 cd ./cancer_race_biomarkers
@@ -20,13 +20,13 @@ cd ./cancer_race_biomarkers
 ## Usage
 ### Step 0: Mount The shared Folder on Google Drive
 
-### Step 1: Significant P Values
+### Step 1: Calculate Significant P Values
 1. Calculate the frequency of mutated genes in each race for TCGA cancers
 2. Perform proportion test for the frequency of mutation
 3. Select genes with significant p-values from proportion test
 
 ```
-step_1_significant_p_values.py
+python3 step_1_significant_p_values.py
 ```
 
 ### Step 2A: Find the longest common sequence
@@ -34,7 +34,7 @@ Calculate the longest common list of genes in sorted order based on their p-valu
 We are looking for the following Cancer types: UCS,THCA,PRAD,LIHC,KIRP,KIRC,ESCA,BRCA,BLCA
 
 ```
-step_2a_longest_common_sequence.py
+python3 step_2a_longest_common_sequence.py
 ```
 
 ### Step 2B: Find the common genes
